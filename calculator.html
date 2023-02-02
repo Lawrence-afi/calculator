@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css">
+    <title>Js Calculator</title>
+</head>
+<body>
+    <div class="display-container">
+        <div class="display" id="display">
+            0
+        </div>
+    </div>
+    <div class="button-container">
+        <button class="s-btn" onclick="myCalculator.clear()">AC</button>
+        <button class="s-btn">±</button>
+        <button class="s-btn">%</button>
+        <button class="o-btn" onclick='myCalculator.operatorFunction("/")'>÷</button>
+        <button class="n-btn" onclick='myCalculator.appendNumber("7")'>7</button>
+        <button class="n-btn" onclick='myCalculator.appendNumber("8")'>8</button>
+        <button class="n-btn" onclick='myCalculator.appendNumber("9")'>9</button>
+        <button class="o-btn" onclick="myCalculator.operatorFunction('*')">×</button>
+        <button class="n-btn" onclick='myCalculator.appendNumber("4")'>4</button>
+        <button class="n-btn" onclick='myCalculator.appendNumber("5")'>5</button>
+        <button class="n-btn" onclick='myCalculator.appendNumber("6")'>6</button>
+        <button class="o-btn" onclick="myCalculator.operatorFunction('-')">—</button>
+        <button class="n-btn" onclick='myCalculator.appendNumber("1")'>1</button>
+        <button class="n-btn" onclick='myCalculator.appendNumber("2")'>2</button>
+        <button class="n-btn" onclick='myCalculator.appendNumber("3")'>3</button>
+        <button class="o-btn" onclick="myCalculator.operatorFunction('+')">+</button>
+        <button class="n-btn big-btn" onclick='myCalculator.appendNumber("0")'>0</button>
+        <button class="n-btn" onclick='myCalculator.appendNumber(".")'>.</button>
+        <button class="o-btn" onclick="myCalculator.display()">=</button>
+    </div>
+    <script type="text/javascript" charset="utf-8" src="calculator.Js">
+
+    </script>
+</body>
+</html>
